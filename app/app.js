@@ -8,6 +8,12 @@ var AWS = require('aws-sdk');
 var s3 = new AWS.S3();
 
 /**
+ * @handler
+ * 画像・動画をアップロードし、S3に保存
+ * CloudFront Signed URLを発行し、返す
+ */
+
+/**
  * 画像をアップロードし、S3に保存する
  */
 function upload() {
